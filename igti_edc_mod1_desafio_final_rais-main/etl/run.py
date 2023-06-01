@@ -24,6 +24,9 @@ urls = [
     "ftp://ftp.mtps.gov.br/pdet/microdados/RAIS/2020/RAIS_VINC_PUB_SP.7z",
 ]
 
+
+
+
 def obter_dados(url, name):
     filename = dlpath + '/' + name
     urlretrieve(url, filename=filename)

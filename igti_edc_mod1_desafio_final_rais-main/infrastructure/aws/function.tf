@@ -17,3 +17,5 @@ resource "aws_lambda_function" "decompresss3" {
   tags = local.common_tags
 
 }
+
+
