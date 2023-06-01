@@ -47,5 +47,5 @@ then
     zip -r9 $cwd/$SCRIPT_FOLDER.zip . #Compacta o pacote para o deploy
     cd $cwd
     echo "Arquivo compactado com sucesso!"
-    echo "============================================="
+    echo "=============================================="
 fi

@@ -55,6 +55,7 @@ apply-dev:
 apply-staging:
 	source ./CI/scripts/get_credentials.sh; docker-compose -f ./CI/docker-compose.yml run --rm rony-ci ./CI/scripts/apply.sh staging
 
+
 .PHONY: apply-prod
 apply-prod:
 	source ./CI/scripts/get_credentials.sh; docker-compose -f ./CI/docker-compose.yml run --rm rony-ci ./CI/scripts/apply.sh prod

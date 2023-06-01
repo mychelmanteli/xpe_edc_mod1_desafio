@@ -9,4 +9,6 @@ resource "aws_glue_crawler" "glue_crawler" {
 
   tags = local.common_tags
 
+
+
 }

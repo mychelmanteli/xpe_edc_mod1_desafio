@@ -19,6 +19,7 @@ def handler(event, context):
                     }
                 },
             ]
+            
         },
         ProcessingResources={
             'ClusterConfig': {

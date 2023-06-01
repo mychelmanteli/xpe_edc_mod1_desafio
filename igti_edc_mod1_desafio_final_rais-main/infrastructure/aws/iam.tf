@@ -5,6 +5,7 @@ resource "aws_iam_role" "glue_role" {
   assume_role_policy = file("./permissions/Role_GlueCrawler.json")
 }
 
+
 resource "aws_iam_policy" "glue_policy" {
   name        = "${local.prefix}_Policy_GlueCrawler_rais"
   path        = "/"
